@@ -1,21 +1,14 @@
-INCLUDE_DIRS = -I/usr/include/opencv4
-LIB_DIRS = 
-CC=g++
+CXX = g++
+CXXFLAGS = -pg -O0 -fno-inline -fopenmp -pthread `pkg-config --cflags opencv4`
+LDFLAGS = -pg `pkg-config --libs opencv4`
+TARGET = jaaa
+SRC = newfile.cpp
 
-CDEFS=
-CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)
-LIBS= -L/usr/lib -lopencv_core -lopencv_flann -lopencv_video -lrt
+all: $(TARGET)
+	./$(TARGET)
 
-
-all: main
-
-main: main.o
-	$(CC) -O0 -g -I/usr/include/opencv4 -o main main.o  `pkg-config --libs opencv4` -L/usr/lib -lopencv_core -lopencv_flann -lopencv_video -lrt
-
-
-main.o: main.cpp
-	$(CC) -O0 -g -I/usr/include/opencv4 -c main.cpp
+$(TARGET): $(SRC)
+	$(CXX) $(SRC) -o $(TARGET) $(CXXFLAGS) $(LDFLAGS)
 
 clean:
-	rm main main.o output*.avi output*.mp4
-
+	rm -f $(TARGET) gmon.out
