@@ -22,7 +22,7 @@ This repository contains the source code and documentation for the ADAS project,
   - Supports road types such as highways, urban roads, and intersections.
 - **Performance**:
   - Target throughput: 30–35 fps
-  - Achieved precision: 0.5+; recall: 0.5+
+  - Achieved precision: 0.8+; recall: 0.8+
 
 ### 2. Traffic Light Detection
 - **Algorithm**: Haar Cascades
@@ -30,7 +30,7 @@ This repository contains the source code and documentation for the ADAS project,
   - Detects traffic light states (RED, YELLOW, GREEN).
 - **Performance**:
   - Target throughput: 30–35 fps
-  - Achieved precision: 0.25+; recall: 0.2+
+  - Achieved precision: 0.8+; recall: 0.8+
 
 ### 3. Stop Sign Detection
 - **Algorithm**: Haar Cascades
@@ -46,7 +46,7 @@ This repository contains the source code and documentation for the ADAS project,
   - Detects pedestrians with pose and behavior recognition.
 - **Performance**:
   - Target throughput: 30–35 fps
-  - Achieved precision: 0.4+; recall: 0.45+
+  - Achieved precision: 0.76+; recall: 0.74+
 
 ### 5. Vehicle Detection
 - **Algorithm**: Haar Cascades
@@ -54,7 +54,7 @@ This repository contains the source code and documentation for the ADAS project,
   - Detects vehicles, differentiates types.
 - **Performance**:
   - Target throughput: 30–35 fps
-  - Achieved precision: 0.62+; recall: 0.6+
+  - Achieved precision: 0.82+; recall: 0.8+
 
 ---
 
