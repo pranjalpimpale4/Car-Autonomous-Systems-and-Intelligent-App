@@ -21,7 +21,7 @@ This repository contains the source code and documentation for the ADAS project,
   - Detects lanes in various lighting/weather conditions.
   - Supports road types such as highways, urban roads, and intersections.
 - **Performance**:
-  - Target throughput: 2–5 fps
+  - Target throughput: 30–35 fps
   - Achieved precision: 0.5+; recall: 0.5+
 
 ### 2. Traffic Light Detection
@@ -29,7 +29,7 @@ This repository contains the source code and documentation for the ADAS project,
 - **Capabilities**:
   - Detects traffic light states (RED, YELLOW, GREEN).
 - **Performance**:
-  - Target throughput: 2–5 fps
+  - Target throughput: 30–35 fps
   - Achieved precision: 0.25+; recall: 0.2+
 
 ### 3. Stop Sign Detection
@@ -37,7 +37,7 @@ This repository contains the source code and documentation for the ADAS project,
 - **Capabilities**:
   - Detects stop signs and provides timely driver alerts.
 - **Performance**:
-  - Target throughput: 2–5 fps
+  - Target throughput: 30–35 fps
   - Achieved precision: 0.09+; recall: 0.08+
 
 ### 4. Pedestrian Detection
@@ -45,7 +45,7 @@ This repository contains the source code and documentation for the ADAS project,
 - **Capabilities**:
   - Detects pedestrians with pose and behavior recognition.
 - **Performance**:
-  - Target throughput: 2–5 fps
+  - Target throughput: 30–35 fps
   - Achieved precision: 0.4+; recall: 0.45+
 
 ### 5. Vehicle Detection
@@ -53,7 +53,7 @@ This repository contains the source code and documentation for the ADAS project,
 - **Capabilities**:
   - Detects vehicles, differentiates types.
 - **Performance**:
-  - Target throughput: 2–5 fps
+  - Target throughput: 30–35 fps
   - Achieved precision: 0.62+; recall: 0.6+
 
 ---
